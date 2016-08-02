@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"R Markdown Tutorial\"\nauthor: \"Mustafa Ascha\"\ndate: \"`r format(Sys.time(), '%d %B, %Y')`\"\noutput: slidy_presentation\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = FALSE)\n```\n\n## R Markdown\n\nFor more details on authoring Rmarkdown reports, visit:  \n<http://rmarkdown.rstudio.com/index.html>.\n\n1. Basic Functionality\n2. Structure: Preamble, Text, Chunks\n3. Text and Formatting\n4. Chunks and Inline Code\n\n##Why R Markdown? \n\n![Presentations!](images/01 - Presentations.png)\n\n##Why R Markdown? \n\n![Reports!](images/02 - Reports.png)\n\n##Why R Markdown?\n\n![Books!](images/03 - books.png)\n\n##Basic Functionality\n\n- Open RStudio\n- Click on the blank piece of paper that has a green circle with a \"+\" on top\n- Click on \"Knit HTML\"\n\n![](images/04 - knit.png)\n\n##Basic Functionality\n\n- Open RStudio\n- Click on the blank piece of paper that has a green circle with a \"+\" on top\n- Click on \"Knit HTML\"  \n(bonus) See the structure of your document by clicking on the staggered lines button at the top right of your editor\n\n![](images/05 - staggered.png)\n\n\n## Structure of a Report\n\n- Preamble: Metadata (like an mp3 has artist, year, song title)\n\n![](images/06 - preamble.png)\n\n## Structure of a Report\n\n- Preamble: Metadata (like an mp3 has artist, year, song title)\n- Text: Where you put your commentary and thoughts\n\n![](images/07 - Text.png)\n\n## Structure of a Report\n\n- Preamble: Metadata (like an mp3 has artist, year, song title)\n- Text: Where you put your commentary and thoughts\n- Chunks: Where you put code that you can explain using text\n\n![](images/08 - chunks.png)\n\n##The Preamble\n\n- This is where you specify things **about** your document, such as author, general format, or font color. \n- For now, the defaults will suffice. But, if you're interested, find more options [here](http://rmarkdown.rstudio.com/pdf_document_format.html) or [here](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#yaml-metadata-block)\n\nHere's an example: \n\n```{r preamble, echo = TRUE, eval = FALSE}\n---\ntitle:  'This is the title: \\n it contains a colon and new line'\nsubtitle: 'This is a really short subtitle'\nauthor:\n- Author One\n- Author Two\ndate: \"`r format(Sys.time(), '%d %B %Y')`\"\ntags: [nothing, nothingness]\nabstract: |\n  This is the abstract.\n\n  It consists of two paragraphs.\noutput: \n    pdf_document:\n        template: NULL\n---\n```\n\n## Text and Formatting\n\n**Show them the markdown help!\n\n```{r cars, echo = TRUE}\nsummary(cars)\n```\n\n## Slide with Plot\n\n- Run a chunk using \"\"\n\n```{r pressure}\nplot(pressure)\n```\n\n",
+    "created" : 1470095972701.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "770163442",
+    "id" : "B0935E84",
+    "lastKnownWriteTime" : 1470096216,
+    "last_content_update" : 1470096216824,
+    "path" : "~/Desktop/work/CTS/CRSP406/tutorial/RMarkdown_Tutorial.Rmd",
+    "project_path" : "RMarkdown_Tutorial.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
