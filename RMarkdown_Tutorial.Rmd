@@ -22,13 +22,19 @@ For more details on authoring Rmarkdown reports, visit:
 
 ## Why R Markdown? 
 
+You can make presentations like this one!
+
 ![Presentations!](images/01 - Presentations.png)
 
 ## Why R Markdown? 
 
+You can automate your reports so they're easily reproducible!
+
 ![Reports!](images/02 - Reports.png)
 
 ## Why R Markdown?
+
+You can write books (maybe a thesis or dissertation?) 
 
 ![Books!](images/03 - books.png)
 
