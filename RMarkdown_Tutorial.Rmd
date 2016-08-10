@@ -43,7 +43,7 @@ You can write books (maybe a thesis or dissertation?)
 - Old way: Look at code output, write into document  
 - New way: Write code, get document  
 
-If you find out a patient has a value of 5 instead of 1, you won't have to go back and rewrite a report: you'll now have a new report without yourself being an intermediary. 
+If you find out a patient has a value of 5 instead of 1, you won't have to go back and rewrite a report: you can just generate a new report! 
 
 ##Basic Functionality
 
